@@ -11,5 +11,5 @@ file(GLOB SOURCES
     src/*.hpp
 )
 
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/src)
 add_library(${PROJECT_NAME} SHARED ${SOURCES})

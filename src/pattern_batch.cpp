@@ -1,7 +1,6 @@
 #include "all.hpp"
 #include "pattern_batch.hpp"
 #include "range.hpp"
-#include "sig_scanner.hpp"
 
 #define HEX_TO_UPPER(value) "0x" << std::hex << std::uppercase << (DWORD64)value << std::dec << std::nouppercase
 
